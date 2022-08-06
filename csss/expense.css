@@ -1,0 +1,32 @@
+.form_main_inputs{width:95%;}
+.add_check{width:115px;margin:10px;transition:0.3s;cursor:pointer;}
+.add_check:hover{color:#1da71d;}
+.add_check span{font-size:30px;}
+#if_check{width:100%;}
+#select_curs,#select_banks{display:none;}
+.check_list{width:100%;margin-top:15px;}
+.check_list table{width:100%;}
+.check_list input{width:85%;}
+.check_list select{width:85%;}
+.check_list th{background-color:#344359;color:#FFFFFF;padding:10px 3px;font-size:15px;border:1px solid #344359;}
+.check_list td{padding:10px 0;text-align:center;border-bottom:1px dashed #c8cfd8;transition:0.4s;}
+.check_list tr{transition:0.3s;}
+.add_checks_field{width:100%;display:flex;}
+.add_old_check{display:flex;margin:10px auto;width: 57%;}
+.old_check_name{width:40%;line-height: 32px;}
+.old_check_input{width:90%;}
+.delete_check{position:absolute;margin-right:-41px;margin-top:-4px;font-family:'symbols';font-size:23px;cursor:pointer;color:#344359;transition:0.3s;}
+.delete_check:hover{color:#ff1717;}
+.delinp{margin-right: -35px;}
+.edit_symbol{font-family:'symbols';font-size:23px;cursor:pointer;transition:0.3s;}
+.edit_symbol:hover{color:green;}
+.edit_symbol  a{font-family:'symbols';font-size:23px;cursor:pointer;transition:0.3s;color:#344359;}
+.edit_symbol a:hover{color:green;}
+.delete_symbol{font-family:'symbols';font-size:23px;cursor:pointer;color:#344359;transition:0.3s;}
+.delete_symbol:hover{color:#ff1717;}
+@media print{
+.check_list th{border-color:#344359;color:#344359;}
+.check_list td{border-color:#344359;border-style:solid;}
+th{font-family:sans-serif;}
+.form_main{width:99%;}
+}

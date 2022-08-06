@@ -1,0 +1,7 @@
+.form_main{width:96%;}
+.main_table{width:99%;}
+fieldset{border: 1px solid #344459;padding:5px;margin-top:20px;}
+@media print{
+#select_year{display:none;}
+#select_month{display:none;}
+}

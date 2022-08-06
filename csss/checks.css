@@ -1,0 +1,4 @@
+.form_main{width:95%;}
+.main_table{width:99%;}
+.delete_check{position:absolute;margin-right:-50px;margin-top:-6px;font-family:'symbols';font-size:23px;cursor:pointer;color:#344359;transition:0.3s;}
+.delete_check:hover{color:#ff1717;}

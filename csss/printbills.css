@@ -1,0 +1,31 @@
+@page {width:auto;height:auto;size:auto;   /* auto is the initial value */margin:1mm;  /* this affects the margin in the printer settings */}
+html{width:100%;height:100%;background-color:#FFFFFF;margin:0px; /* this affects the margin on the html before sending to printer */}
+body{width:auto;height:auto; margin:0; /* margin you want for the content */}
+
+.bill_main{width:98%;height:100%;margin:15px auto;border:1px #344359 solid;/*#c8cfd8-#616b79*/}
+.bill_main2{width:98%;height:100%;margin:15px auto;border:1px #344359 solid;/*#c8cfd8-#616b79*/}
+.bill_title{background-color:#344359;text-align:center;padding:10px;color:#FFFFFF;font-size:20px;}
+.bill_title_wrap{width:98%;display:flex;margin:7px auto;}
+.bill_title_wrap2{width:98%;margin:5px auto;}
+.bill_title_line2{width:98%;font-family:serif;font-weight:bold;margin:7px auto;}
+.bill_title_line{width:50%;font-family:serif;font-weight:bold;margin:5px auto;padding:0 30px;}
+.bill_list_main{width:98%;margin:30px auto;}
+.bill_list_main table{width:100%;margin-top:40px;border:1px solid #000000;text-align:center;}
+.bill_list_main tr{}
+.bill_list_main th{background-color:#344359;color:#FFFFFF;padding:5px;font-size:14px;vertical-align: middle;border: 1px solid black;}
+.bill_list_main td{border:1px solid #000000;padding:4px;font-family:serif;font-weight:bold;font-size:15px;}
+.main_print_button{width:99%;margin:0 auto;margin-bottom:-5px;}
+.div_print_button{width:210px;margin:0 auto;}
+.print_button{width:90px;display:inline-block;margin:5px auto;padding:5px;font-weight:bold;font-size:17px;color:#344359;border:1px #344359 solid;border-radius:5px;transition:0.3s;cursor:pointer;}
+.print_button:hover{background-color:#344359;color:#ffffff;}
+.print_button span{font-family:'symbols';margin:8px;font-size:19px;}
+.header_logo{width:100%;margin-top:15px;}
+.header_logo img{width:95%;margin:0 2.5%;}
+
+@media print{
+.div_print_button{display:none;}
+.print_button{display:none;}
+.bill_title{background:initial;color:#344359;border-bottom:1px #344359 solid;}
+.bill_list_main th{background:initial;color:initial;border:1px solid #000000;}
+
+}

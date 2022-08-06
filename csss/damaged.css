@@ -1,0 +1,8 @@
+.form_main {width:95%;}
+.add_element{width:200px;margin:10px;transition:0.3s;cursor:pointer;}
+.add_element:hover{color:#1da71d;}
+.nume{font-weight:bold;}
+@media print{
+.form_main_inputs{width:90%;}
+.main_table{width:100%;}
+}

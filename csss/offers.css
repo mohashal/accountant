@@ -1,0 +1,4 @@
+.add_element{margin:10px;color:#344359;}
+.add_element a{color:#344359;transition:0.3s;}
+.add_element a:visited{color:#344359;}
+.add_element a:hover{color:green;}
